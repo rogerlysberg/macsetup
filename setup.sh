@@ -21,6 +21,7 @@ git pull $HOME/Git/macsetup.git
 
 # Install all our dependencies with bundle (See Brewfile)
 brew tap homebrew/bundle
+brew bundle
 
 # Install Composer
 curl -sS https://getcomposer.org/installer | php
