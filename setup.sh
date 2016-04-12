@@ -16,7 +16,7 @@ brew install git
 mkdir $HOME/Git
 git clone https://github.com/rogerlysberg/macsetup.git $HOME/Git/macsetup.git
 # Incase we already have the git repo, try to update it
-cd $HOME/Git/macsetup.git
+cd $HOME/Git/macsetup.git/
 git pull $HOME/Git/macsetup.git
 
 # Install all our dependencies with bundle (See Brewfile)
