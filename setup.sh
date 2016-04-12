@@ -5,3 +5,9 @@ if test ! $(which brew); then
   echo "Installing Howebrew"
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
+
+# Update Homebrew recipes
+brew update
+
+# Install all our dependencies with bundle (See Brewfile)
+brew tap homebrew/bundle
