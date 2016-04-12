@@ -33,7 +33,7 @@ brew 'trash'
 brew 'wget'
 
 # PHP
-#bbbrew 'php70', args: ['with-debug', 'without-apache']
+brew 'php70', args: ['with-debug', 'without-apache']
 
 # Apps
 cask 'fish'
